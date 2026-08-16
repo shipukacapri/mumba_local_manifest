@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Device tree -->
+  <project
+      name="shipukacapri/android_device_motorola_mumba"
+      path="device/motorola/mumba"
+      remote="github"
+      revision="inf-16" />
+
+   <!-- Kernel  -->
+  <project
+      name="shipukacapri/android_device_motorola_mumba-kernel"
+      path="device/motorola/mumba-kernel"
+      remote="github"
+      revision="lineage-23.2" />
+  
+  <!-- Vendor blobs  -->
+  <project
+      name="shipukacapri/android_vendor_motorola_mumba"
+      path="vendor/motorola/mumba"
+      remote="github"
+      revision="lineage-23.2" />
+  
+<!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
+<project
+    name="shipukacapri/android_hardware_motorola"
+    path="hardware/motorola"
+    remote="github"
+    revision="lineage-23.2" />
+
+   <!-- dolby for moto -->
+
+</manifest>
